@@ -3,9 +3,10 @@ const repoCount = 50
 
 // console.log(name + repoCount + " Value");
 
-console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
+console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);// best way to write the code which involves concatination of variables
+// op will be same as line 4 but this is the modern way of writing
 
-const gameName = new String('hitesh-hc-com')
+const gameName = new String('hitesh-hc-com')// aother type of declaring a string
 
 // console.log(gameName[0]);
 // console.log(gameName.__proto__);
