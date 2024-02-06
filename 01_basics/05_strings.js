@@ -17,15 +17,15 @@ const gameName = new String('hitesh-hc-com')// aother type of declaring a string
 console.log(gameName.charAt(2));
 console.log(gameName.indexOf('t'));
 
-const newString = gameName.substring(0, 4)
+const newString = gameName.substring(0, 4) // we cannot use negative values here
 console.log(newString);
 
-const anotherString = gameName.slice(-8, 4)
+const anotherString = gameName.slice(-8, 4) // we can use negative values, works same as slicing in python.
 console.log(anotherString);
 
 const newStringOne = "   hitesh    "
 console.log(newStringOne);
-console.log(newStringOne.trim());
+console.log(newStringOne.trim());  // used to remove white spaces , same as strip in python
 
 const url = "https://hitesh.com/hitesh%20choudhary"
 
