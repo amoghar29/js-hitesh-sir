@@ -6,7 +6,7 @@ const myHeors = ["shaktiman", "naagraj"]
 const myArr2 = new Array(1, 2, 3, 4)
 // console.log(myArr[1]);
 
-// Array methods
+// Array methodsf
 
 // myArr.push(6)
 // myArr.push(7)
@@ -28,12 +28,14 @@ const myArr2 = new Array(1, 2, 3, 4)
 
 console.log("A ", myArr);
 
-const myn1 = myArr.slice(1, 3)
+const myn1 = myArr.slice(1, 3)//doesnt mannipulate the original array
 
 console.log(myn1);
 console.log("B ", myArr);
 
 
 const myn2 = myArr.splice(1, 3)
+//splice manipulates the orignal array by removing all the elements spliced
+// also in splice the last no. is counted, eg- here (1,3) is given so it goes from1,2,3 where as in slice it goes only till 2(ie n-1)
 console.log("C ", myArr);
 console.log(myn2);

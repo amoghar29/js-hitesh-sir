@@ -7,8 +7,8 @@ let myDate = new Date()
 // console.log(myDate.toJSON()); // 2024-02-07T07:53:48.479Z
 // console.log(myDate.toUTCString()); // Wed, 07 Feb 2024 07:55:09 GMT
 
-// console.log(myDate.toLocaleString());
-// console.log(typeof myDate);
+// console.log(myDate.toLocaleString()); // 7/2/2024, 4:18:04 pm
+// console.log(typeof myDate); // object
 
 // let myCreatedDate = new Date(2023, 0, 23)
 // let myCreatedDate = new Date(2023, 0, 23, 5, 3)
