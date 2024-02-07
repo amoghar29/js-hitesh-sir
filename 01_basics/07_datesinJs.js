@@ -1,8 +1,12 @@
 // Dates
 
 let myDate = new Date()
-// console.log(myDate.toString());
-// console.log(myDate.toDateString());
+// console.log(myDate.toString()); // Wed Feb 07 2024 13:24:15 GMT+0530 (India Standard Time)
+// console.log(myDate.toDateString()); // Wed Feb 07 2024
+// console.log(myDate.toISOString()); //2024-02-07T07:52:40.972Z
+// console.log(myDate.toJSON()); // 2024-02-07T07:53:48.479Z
+// console.log(myDate.toUTCString()); // Wed, 07 Feb 2024 07:55:09 GMT
+
 // console.log(myDate.toLocaleString());
 // console.log(typeof myDate);
 
