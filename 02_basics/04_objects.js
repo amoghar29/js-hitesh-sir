@@ -1,5 +1,5 @@
-// const tinderUser = new Object()
-const tinderUser = {}
+// const tinderUser = new Object() //singleton object
+const tinderUser = {} //non singleton object
 
 tinderUser.id = "123abc"
 tinderUser.name = "Sammy"
@@ -55,6 +55,8 @@ users[1].email
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 
+
+//destructuring
 const course = {
     coursename: "js in hindi",
     price: "999",
