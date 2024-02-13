@@ -8,7 +8,7 @@ function sayMyName(){
     console.log("H");
 }
 
-// sayMyName()
+// sayMyName(), // withouor paranthesis it is just refrence 
 
 // function addTwoNumbers(number1, number2){
 
